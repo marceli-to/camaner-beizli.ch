@@ -1,0 +1,27 @@
+<div class="md:grid md:grid-cols-12 md:gap-30 lg:gap-45 xl:gap-60">
+{{ item }}
+  <a href="{{ url }}"
+    target="_blank"
+    title="Download {{ title }}"
+    class="group !no-underline {{ if layout == 'wide' }} md:col-span-8 {{ /if }} {{ if layout == 'narrow' }} md:col-span-4 {{ /if }}">
+    <figure class="mb-15 md:mb-20 lg:mb-25">
+      <picture>
+        <source media="(min-width: 768px)" srcset="{{ glide:image preset='lg-webp' }}" type="image/webp">
+        <source srcset="{{ glide:image preset='md-webp' }}" type="image/webp">
+        <source media="(min-width: 768px)" srcset="{{ glide:image preset='lg' }}" type="image/jpeg">
+        <img 
+          src="{{ glide:image preset='md' }}" 
+          alt="{{ image:alt }}" 
+          title="{{ image:alt }}" 
+          height="{{ image:height }}" 
+          width="{{ image:width }}"
+          class="block w-full h-auto object-cover group-hover:opacity-80 transition-opacity {{ if layout == 'wide' }} aspect-[16/9] {{ else }} aspect-[1/1.214] max-w-[50%] md:max-w-none {{ /if }}"
+          loading="lazy">
+      </picture>
+    </figure>
+    <div class="mb-40 md:mb-0 text-md md:text-lg xl:text-xl leading-[1.1] group-hover:text-rose transition-colors">
+      {{ title }}
+    </div>
+  </a>
+{{ /item }}
+</div>

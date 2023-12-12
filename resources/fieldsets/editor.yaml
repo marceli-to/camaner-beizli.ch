@@ -1,0 +1,111 @@
+title: Editor
+fields:
+  -
+    handle: content
+    field:
+      buttons:
+        - h1
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - removeformat
+        - anchor
+        - lead
+      smart_typography: false
+      save_html: false
+      inline: false
+      toolbar_mode: fixed
+      reading_time: false
+      word_count: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      remove_empty_nodes: false
+      antlers: false
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      always_show_set_button: false
+      collapse: false
+      previews: true
+      type: bard
+      display: Content
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      sets:
+        elements:
+          display: Elemente
+          instructions: null
+          icon: programming-module-box-cube
+          sets:
+            accordion:
+              display: Accordion
+              instructions: 'Add an accordion'
+              icon: form-drop-down-menu
+              fields:
+                -
+                  import: accordion
+            address:
+              display: Address
+              instructions: 'Add a global address'
+              icon: form-address-field
+              fields:
+                -
+                  import: address
+            image:
+              display: Image
+              instructions: 'Add a single image'
+              icon: media-image-camera
+              fields:
+                -
+                  import: image
+            team:
+              display: Team
+              instructions: 'Add a group of team members'
+              icon: user-multiple
+              fields:
+                -
+                  import: team
+            banner:
+              display: Banner
+              instructions: 'Add a themed banner'
+              icon: align-object-center
+              fields:
+                -
+                  import: banner
+            teaser:
+              display: 'Teaser Förderung'
+              instructions: 'Add a rounded teaser (Förderung)'
+              icon: layout-three-columns
+              fields:
+                -
+                  import: teaser
+            downloads:
+              display: 'Media Download'
+              instructions: 'Add a downloadable file'
+              icon: layout-grid-dots
+              fields:
+                -
+                  import: downloads
+            media_download:
+              display: 'Media Article'
+              instructions: 'Add a media article / link'
+              icon: download-arrow-down
+              fields:
+                -
+                  import: media_download
+            project_teasers:
+              display: 'Project Teasers'
+              instructions: 'Add a project teaser'
+              icon: text-formatting-image-top
+              fields:
+                -
+                  import: project_teasers
+      container: assets

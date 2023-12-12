@@ -1,0 +1,32 @@
+tabs:
+  main:
+    display: Hauptteil
+    sections:
+      -
+        fields:
+          -
+            handle: contact_form_response
+            field:
+              antlers: false
+              type: textarea
+              display: Kontaktformular
+              icon: textarea
+              listable: hidden
+              instructions_position: below
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              instructions: 'Text will be shown to the user after the form has been successfully submited'
+          -
+            handle: application_form_response
+            field:
+              antlers: false
+              type: textarea
+              display: Antragsformular
+              icon: textarea
+              listable: hidden
+              instructions_position: below
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              instructions: 'Text will be shown to the user after the form has been successfully submited'

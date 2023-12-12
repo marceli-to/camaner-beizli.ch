@@ -1,0 +1,32 @@
+title: Team
+fields:
+  -
+    handle: category
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Category
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required
+  -
+    handle: members
+    field:
+      mode: default
+      create: true
+      collections:
+        - team
+      type: entries
+      display: Members
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

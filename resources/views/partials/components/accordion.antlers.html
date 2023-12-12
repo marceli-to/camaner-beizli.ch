@@ -1,0 +1,12 @@
+<details class="mb-20 lg:mb-30 xl:mb-40 scroll-mt-5 {{ class }}" data-collapsible-item="{{ id }}">
+  <summary class="flex items-center justify-between cursor-pointer border-b pb-10 lg:pb-15 group">
+    <div class="select-none text-left text-md md:text-lg lg:text-xl xl:text-3xl xl:mt-5">
+      {{ title }}
+    </div>
+    {{ partial:icons/arrow-down class="close mt-5" }}
+    {{ partial:icons/rounded-cross class="open mt-5" }}
+  </summary>
+  <div class="py-15 lg:py-25 {{ innerClass }}">
+    {{ text }}
+  </div>
+</details>

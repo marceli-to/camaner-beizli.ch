@@ -1,0 +1,29 @@
+title: Downloads
+fields:
+  -
+    handle: item
+    field:
+      collapse: false
+      previews: true
+      fullscreen: true
+      sets:
+        neue_set-gruppe:
+          display: 'Neue Set-Gruppe'
+          instructions: null
+          icon: null
+          sets:
+            item:
+              display: Item
+              instructions: null
+              icon: layout-grid-dots
+              fields:
+                -
+                  import: download_item
+      type: replicator
+      display: Item
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

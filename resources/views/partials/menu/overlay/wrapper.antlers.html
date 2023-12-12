@@ -1,0 +1,8 @@
+<div x-cloak x-show="menu" class="bg-jade fixed left-0 top-0 w-full h-full z-40 lg:hidden">
+  <a href="javascript:;" x-on:click="menu = ! menu" title="Menü schliessen">
+    {{ partial:icons/cross class="" }}
+  </a>
+  {{ nav:main }}
+    {{ partial:menu/overlay/parent-item }}
+  {{ /nav:main }}
+</div>

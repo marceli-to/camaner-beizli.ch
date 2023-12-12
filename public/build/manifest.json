@@ -1,0 +1,27 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-991c98ca.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/css/fonts/NantesWeb-SemiBold.woff": {
+    "file": "assets/NantesWeb-SemiBold-dc62679a.woff",
+    "src": "resources/css/fonts/NantesWeb-SemiBold.woff"
+  },
+  "resources/css/fonts/NantesWeb-SemiBold.woff2": {
+    "file": "assets/NantesWeb-SemiBold-6ceb85d8.woff2",
+    "src": "resources/css/fonts/NantesWeb-SemiBold.woff2"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-d66ac298.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-d66ac298.css"
+    ],
+    "file": "assets/app-fca15f63.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

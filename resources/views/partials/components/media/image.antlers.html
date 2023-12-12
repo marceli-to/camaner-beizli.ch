@@ -1,0 +1,19 @@
+<figure class="mt-30 md:mt-45 lg:mt-60 {{ class }}">
+  <picture>
+    <source media="(min-width: 1280px)" srcset="{{ glide:image preset='2xl-webp' }}" type="image/webp">
+    <source media="(min-width: 1024px)" srcset="{{ glide:image preset='xl-webp' }}" type="image/webp">
+    <source media="(min-width: 768px)" srcset="{{ glide:image preset='lg-webp' }}" type="image/webp">
+    <source srcset="{{ glide:image preset='md-webp' }}" type="image/webp">
+    <source media="(min-width: 1280px)" srcset="{{ glide:image preset='2xl' }}" type="image/jpeg">
+    <source media="(min-width: 1024px)" srcset="{{ glide:image preset='xl' }}" type="image/jpeg">
+    <source media="(min-width: 768px)" srcset="{{ glide:image preset='lg' }}" type="image/jpeg">
+    <img 
+      src="{{ glide:image preset='md' }}" 
+      alt="{{ caption ? caption : image:alt }}" 
+      title="{{ caption ? caption : image:alt }}" 
+      height="{{ image:height }}" 
+      width="{{ image:width }}"
+      class="block w-full h-full aspect-[16/9] object-cover {{ imageClass ?? '' }}"
+      loading="lazy">
+  </picture>
+</figure>

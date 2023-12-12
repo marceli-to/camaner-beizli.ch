@@ -1,0 +1,32 @@
+title: 'Project Slideshow'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Title
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required
+  -
+    handle: projects
+    field:
+      mode: default
+      create: true
+      collections:
+        - projects
+      type: entries
+      display: Projects
+      icon: entries
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

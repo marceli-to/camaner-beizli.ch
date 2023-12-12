@@ -1,0 +1,20 @@
+<address class="not-italic">
+  {{ if contact_info:address }}
+    <div>{{ contact_info:address | nl2br }}</div>
+  {{ /if }}
+  {{ if contact_info:phone }}
+    Telefon
+    <a href="tel:{{ contact_info:phone }}"
+      title="Rufen Sie uns an"
+      class="no-underline hover:underline underline-offset-8 decoration-1">
+      {{ contact_info:phone }}
+    </a><br>
+  {{ /if }}
+  {{ if contact_info:email }}
+    <a href="mailto:{{ contact_info:email }}" 
+      title="E-Mail schreiben"
+      class="no-underline hover:underline underline-offset-8 decoration-1">
+      {{ contact_info:email }}
+    </a>
+  {{ /if }}
+</address>
