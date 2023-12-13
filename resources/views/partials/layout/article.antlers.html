@@ -1,3 +1,29 @@
+
 <article class="border-t border-black pt-5 lg:pt-15 {{ class }}">
-  {{ slot }}
+  <a name="{{ anchor }}" class="scroll-mt-20 lg:scroll-mt-40"></a>
+
+  {{ element }}
+   
+    {{ if type == 'title' }}
+      <h1>{{ title }}</h1>
+    {{ /if }}
+
+    {{ if type == 'lead' }}
+      <div class="lead mb-20 lg:mb-40">
+        {{ lead }}
+      </div>
+    {{ /if }}
+
+    {{ if type == 'text' }}
+      <div class="md:grid md:grid-cols-12 md:gap-x-20 lg:gap-x-30 leading-[1.25]">
+        <div class="md:col-span-6 [&>p]:mb-20 [&>p]:md:mb-25 [&>p]:lg:mb-35">
+          {{ text_left }}
+        </div>
+        <div class="md:col-span-6 [&>p]:mb-20 [&>p]:md:mb-25 [&>p]:lg:mb-35">
+          {{ text_right }}
+        </div>
+      </div>
+    {{ /if }}
+
+  {{ /element }}
 </article>

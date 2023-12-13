@@ -47,6 +47,13 @@ tabs:
                       fields:
                         -
                           import: intro_opening
+                    article:
+                      display: Artikel
+                      instructions: null
+                      icon: text-formatting-image-left
+                      fields:
+                        -
+                          import: article
               type: replicator
               display: Inhalte
               icon: replicator

@@ -1,14 +1,16 @@
-{{ if type == 'editor' }}
-  {{ partial:layout/inner }}
-    {{ partial:components/editor }}
-  {{ /partial:layout/inner}}
-{{ /if }}
-
 {{ if type == 'intro_opening' }}
   {{ partial:components/intro_opening }}
 {{ /if }}
 
 {{ if type == 'gallery' }}
-  {{ partial:components/media/gallery }}
+  {{ partial:layout/inner }}
+    {{ partial:components/media/gallery }}
+  {{ /partial:layout/inner }}
+{{ /if }}
+
+{{ if type == 'article' }}
+  {{ partial:layout/inner }}
+    {{ partial:layout/article }}
+  {{ /partial:layout/inner }}
 {{ /if }}
 

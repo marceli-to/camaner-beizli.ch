@@ -18,10 +18,14 @@ body {
 
 }
 
-main p {
-
+main p:last-of-type {
+  @apply !mb-0
 }
 
-main p.lead {
-  @apply text-xs xs:text-sm md:text-xl lg:text-3xl leading-[1.2] mb-20 md:mb-25 lg:mb-35
+article .lead {
+  @apply text-xs xs:text-sm md:text-xl lg:text-3xl leading-[1.2] mb-20 md:mb-30 lg:mb-40
+}
+
+article a {
+  @apply underline underline-offset-4 decoration-1 hover:no-underline
 }

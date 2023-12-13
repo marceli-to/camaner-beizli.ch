@@ -1,0 +1,149 @@
+title: Artikel
+fields:
+  -
+    handle: anchor
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: Anker
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+      validate:
+        - required
+  -
+    handle: element
+    field:
+      collapse: false
+      previews: true
+      fullscreen: true
+      sets:
+        article:
+          display: Artikel
+          instructions: null
+          icon: text-formatting-image-left
+          sets:
+            title:
+              display: Titel
+              instructions: null
+              icon: text-formatting-all-caps
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Titel
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+                    validate:
+                      - required
+            lead:
+              display: Lead
+              instructions: null
+              icon: text-formatting-image-top
+              fields:
+                -
+                  handle: lead
+                  field:
+                    antlers: false
+                    type: textarea
+                    display: Lead
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+            text:
+              display: Text
+              instructions: null
+              icon: text-formatting-initial-letter
+              fields:
+                -
+                  handle: text_left
+                  field:
+                    buttons:
+                      - h3
+                      - unorderedlist
+                      - removeformat
+                      - anchor
+                    smart_typography: false
+                    save_html: false
+                    inline: false
+                    toolbar_mode: fixed
+                    reading_time: false
+                    word_count: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    remove_empty_nodes: false
+                    antlers: false
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    always_show_set_button: false
+                    collapse: false
+                    previews: true
+                    type: bard
+                    display: 'Text (links)'
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+                    width: 50
+                -
+                  handle: text_right
+                  field:
+                    buttons:
+                      - h3
+                      - unorderedlist
+                      - removeformat
+                      - anchor
+                    smart_typography: false
+                    save_html: false
+                    inline: false
+                    toolbar_mode: fixed
+                    reading_time: false
+                    word_count: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    remove_empty_nodes: false
+                    antlers: false
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    always_show_set_button: false
+                    collapse: false
+                    previews: true
+                    type: bard
+                    display: 'Text (rechts)'
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+                    width: 50
+      type: replicator
+      display: Element
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
