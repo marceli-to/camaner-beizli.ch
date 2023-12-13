@@ -1,0 +1,13 @@
+{{ partial:layout/inner }}
+  <div class="text-center">
+    <div class="text-xs xs:text-sm md:text-xl lg:text-3xl mb-2 md:mb-5 lg:mb-10 leading-none">
+      {{ title }}
+    </div>
+    <div class="text-md xs:text-lg md:text-3xl lg:text-5xl mb-20 lg:mb-40">
+      {{ opening_hours | nl2br }}
+    </div>
+    <div class="text-xs xs:text-sm md:text-xl lg:text-3xl">
+      {{ text | nl2br }}
+    </div>
+  </div>
+{{ /partial:layout/inner }}

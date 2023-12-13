@@ -4,25 +4,11 @@
   {{ /partial:layout/inner}}
 {{ /if }}
 
-{{ if type == 'form' }}
-  {{ partial:layout/inner }}
-    
-    {{ if form:handle == 'contact_form' }}
-      {{ partial:components/forms/contact }}
-    {{ /if }}
-    
-    {{ if form:handle == 'application_form' }}
-      {{ partial:components/forms/application }}
-    {{ /if }}
-
-  {{ /partial:layout/inner}}
+{{ if type == 'intro_opening' }}
+  {{ partial:components/intro_opening }}
 {{ /if }}
 
-{{ if type == 'project_slideshow' }}
-{{ partial:components/swiper/index }}
-{{ /if }}
-
-{{ if type == 'banner' }}
-{{ partial:components/banner }}
+{{ if type == 'gallery' }}
+  {{ partial:components/media/gallery }}
 {{ /if }}
 

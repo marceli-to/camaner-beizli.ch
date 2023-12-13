@@ -1,0 +1,17 @@
+{{ partial:layout/inner }}
+
+  {{ images }}
+    {{ if first }}
+      <a data-src="{{ glide:image preset='3xl' }}" 
+        data-fancybox="gallery"
+        data-caption="{{ image:alt }}">
+        {{ partial:partials/components/media/image count="{{ images | count }}" }}
+      </a>
+    {{ else }}
+      <a data-src="{{ glide:image preset='3xl' }}" 
+        data-fancybox="gallery"
+        data-caption="{{ image:alt }}">
+      </a>
+    {{ /if}}
+  {{ /images }}
+{{ /partial:layout/inner }}

@@ -1,0 +1,45 @@
+.fancybox__backdrop {
+  @apply !bg-silver;
+}
+
+.fancybox__toolbar {
+}
+
+.fancybox__content {
+  @apply !pt-30 !pb-10
+}
+
+.fancybox__nav .f-button svg,
+.fancybox__toolbar .f-button svg {
+  display:  none !important;
+}
+
+.fancybox__toolbar .f-button[data-fancybox-close] {
+  @apply !bg-transparent
+}
+
+.fancybox__nav .f-button {
+  z-index: 99998;
+}
+
+.fancybox__nav .f-button.is-next {
+}
+
+.fancybox__nav .f-button.is-prev {
+}
+
+.fancybox__caption {
+  @apply !text-black !p-0
+}
+
+.fancybox__footer {
+  background-color: transparent !important;
+}
+
+.is-compact .fancybox__footer {
+  @apply !p-20 text-center
+}
+
+.is-compact .fancybox__footer .fancybox__caption {
+  @apply !mx-auto !w-auto !inline-flex;
+}

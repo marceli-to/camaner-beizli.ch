@@ -33,13 +33,22 @@ tabs:
                   instructions: null
                   icon: null
                   sets:
-                    neues_set:
-                      display: 'Neues Set'
+                    gallery:
+                      display: Bildergalerie
                       instructions: null
-                      icon: null
-                      fields: {  }
+                      icon: media-image-picture-gallery
+                      fields:
+                        -
+                          import: gallery
+                    intro_opening:
+                      display: 'Intro Eröffnung'
+                      instructions: null
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: intro_opening
               type: replicator
-              display: 'Content elements'
+              display: Inhalte
               icon: replicator
               listable: hidden
               instructions_position: above

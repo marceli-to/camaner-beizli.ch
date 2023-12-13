@@ -106,6 +106,7 @@ return [
           'lg-webp' => ['w' => 1280, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
           'xl-webp' => ['w' => 1440, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
           '2xl-webp' => ['w' => 1680, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
+          '3xl-webp' => ['w' => 2000, 'h' => 10000, 'q' => 90, 'fit' => 'contain', 'fm' => 'webp'],
 
           'xs' => ['w' => 320, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           'sm' => ['w' => 480, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
@@ -113,8 +114,9 @@ return [
           'lg' => ['w' => 1280, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           'xl' => ['w' => 1440, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
           '2xl' => ['w' => 1680, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
-
-          'max_upload_size' => ['w' => 2000, 'h' => 2000, 'fit' => 'max'],
+          '3xl' => ['w' => 2000, 'h' => 10000, 'q' => 90, 'fit' => 'contain'],
+          '
+          max_upload_size' => ['w' => 2000, 'h' => 2000, 'fit' => 'max'],
 
         ],
 

@@ -1,4 +1,4 @@
-<figure class="mt-30 md:mt-45 lg:mt-60 {{ class }}">
+<figure class="{{ class }}">
   <picture>
     <source media="(min-width: 1280px)" srcset="{{ glide:image preset='2xl-webp' }}" type="image/webp">
     <source media="(min-width: 1024px)" srcset="{{ glide:image preset='xl-webp' }}" type="image/webp">
@@ -9,11 +9,19 @@
     <source media="(min-width: 768px)" srcset="{{ glide:image preset='lg' }}" type="image/jpeg">
     <img 
       src="{{ glide:image preset='md' }}" 
-      alt="{{ caption ? caption : image:alt }}" 
-      title="{{ caption ? caption : image:alt }}" 
+      alt="{{ image:alt }}" 
+      title="{{ image:alt }}" 
       height="{{ image:height }}" 
       width="{{ image:width }}"
-      class="block w-full h-full aspect-[16/9] object-cover {{ imageClass ?? '' }}"
+      class="block w-full h-auto {{ imageClass ?? '' }}"
       loading="lazy">
   </picture>
+  {{ if image:alt }}
+    <figcaption class="text-tiny sm:text-xxs md:text-xs mt-5 lg:mt-10 flex gap-x-10 lg:gap-x-15">
+      {{ if count }}
+        <div>1/{{ count }}</div>
+      {{ /if }}
+      <div>{{ image:alt }}</div>
+    </figcaption>
+  {{ /if }}
 </figure>

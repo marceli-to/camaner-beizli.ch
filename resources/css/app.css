@@ -4,6 +4,7 @@
 
 @import "typo/webfonts.css";
 @import "components/headings.css";
+@import "components/fancybox.css";
 @import "utils.css";
 
 html {

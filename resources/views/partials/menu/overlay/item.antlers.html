@@ -1,0 +1,9 @@
+<li>
+  <a 
+    href="{{ url }}" 
+    x-on:click="menu = false"
+    class="block w-full py-5 lg:py-10 text-3xl sm:text-6xl md:text-7xl lg:text-8xl no-underline hover:underline underline-offset-8 md:underline-offset-12 decoration-1 md:decoration-2 {{ is_current || is_parent ? '' : '' }}"
+    title="{{ title }}">
+    {{ title }}
+  </a>
+</li>

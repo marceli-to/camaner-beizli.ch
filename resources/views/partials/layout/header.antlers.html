@@ -1,1 +1,18 @@
-
+<header class="pt-20 relative z-20">
+  {{ partial:layout/inner class="flex justify-center" }}
+    <div class="flex flex-col">
+      {{ partial:partials/components/birds/bird-1 class="w-160 sm:w-180 lg:w-[260px] lg:h-auto block relative left-50 sm:left-52 lg:left-75" }}
+      <a href="" class="w-180 sm:w-200 lg:w-[285px] h-auto block">
+        {{ partial:icons/logo class="w-full h-auto block" }}
+      </a>
+    </div>
+    <a 
+      href="javascript:;" 
+      x-on:click="menu = ! menu" 
+      title="Menü anzeigen"
+      class="w-30 sm:w-40 md:w-50 lg:w-60 h-auto fixed right-15 lg:right-25 top-20 md:top-25 lg:top-40 z-50">
+      {{ partial:icons/burger class="w-full h-auto text-black" }}
+    </a>
+  {{ /partial:layout/inner}}
+</header>
+{{ partial:menu/overlay/wrapper }}

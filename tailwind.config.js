@@ -24,13 +24,15 @@ export default {
         'inner': '1100px',
       },
 
+      textUnderlineOffset: {
+        12: '12px',
+      },
+
       fontFamily: {
         'nantes': ['Nantes', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {
-        // mini, 12px, in rem
-        'mini': '0.75rem', // 12px
         'tiny': '0.875rem',  // 14px
         'xxs': '1rem',       // 16px
         'xs': '1.125rem',    // 18px
