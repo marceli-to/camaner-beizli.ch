@@ -57,9 +57,9 @@ export default {
       },
 
       backgroundImage: {
-        'lightbox-prev': "url('/img/chevron-left.svg')",
-        'lightbox-next': "url('/img/chevron-right.svg')",
-        'lightbox-close': "url('/img/cross.svg')",
+        'lightbox-prev': "url(img/chevron-left.svg)",
+        'lightbox-next': "url(img/chevron-right.svg)",
+        'lightbox-close': "url(img/cross.svg)",
       }
       
     },
