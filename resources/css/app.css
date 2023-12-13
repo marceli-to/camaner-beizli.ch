@@ -29,3 +29,7 @@ article .lead {
 article a {
   @apply underline underline-offset-4 decoration-1 hover:no-underline
 }
+
+/* article.has-bird {
+  @apply bg-bird bg-[length:100px_auto] lg:bg-[length:200px_auto] bg-no-repeat bg-[center_right_-50px] lg:bg-[center_right_-100px];
+} */

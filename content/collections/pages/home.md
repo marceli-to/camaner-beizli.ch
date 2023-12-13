@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702481918
+updated_at: 1702483688
 page_elements:
   -
     id: lq3la5yk
@@ -136,6 +136,7 @@ page_elements:
     type: article
     enabled: true
     anchor: camaner-beizli
+    has_bird: false
   -
     id: lq3qgpvn
     element:
@@ -278,6 +279,7 @@ page_elements:
     type: article
     enabled: true
     anchor: das-beizli-durchs-jahr
+    has_bird: true
   -
     id: lq3qjvek
     element:
@@ -500,5 +502,6 @@ page_elements:
     type: article
     enabled: true
     anchor: kontakt-und-anreise
+    has_bird: false
 page_theme: winter
 ---
