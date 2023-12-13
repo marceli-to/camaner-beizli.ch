@@ -50,10 +50,18 @@ export default {
       },
 
       colors: {
-        'mist': '#dce3eb',
-        'jade': '#69ad7c',
-        'silver': '#E5E5E7'
+        'mist': '#dae4ec',
+        'jade': '#74c49d',
+        'silver': '#e5e5e7',
+        'emerald': '#33af7a',
       },
+
+      backgroundImage: {
+        'lightbox-prev': "url('../img/chevron-left.svg')",
+        'lightbox-next': "url('../img/chevron-right.svg')",
+        'lightbox-close': "url('../img/cross.svg')",
+      }
+      
     },
 
     spacing: {

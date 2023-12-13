@@ -1,8 +1,6 @@
-title: 'Contact info'
+title: Kontakt
 data:
-  address: |-
-    Otto Mihm Stiftung
-    Teststrasse 99
-    8001 Zürich
-  phone: '+41 (0)44 300 22 44'
-  email: mail@mihmfoundation.org
+  address: 'Camaner Beizli, Ober Camana 35, 7109 Thalkirch'
+  phone: '081 647 13 50'
+  email: mail@camaner-beizli.ch
+  google_maps_url: 'https://maps.app.goo.gl/aJhigLp4jBUM2MsJA'

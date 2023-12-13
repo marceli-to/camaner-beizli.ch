@@ -1,32 +1,44 @@
-<footer>
-  {{# {{ partial:layout/inner }}
-    <div class="flex flex-col gap-y-30 sm:grid sm:grid-cols-12 sm:items-center">
-      <address class="not-italic leading-[1.5] lg:leading-[1.3] sm:col-span-6 md:col-span-7 lg:col-span-8">
+<footer class="bg-emerald w-full px-15 lg:px-35 xl:px-0 py-20 lg:py-35">
+  {{ partial:layout/inner class="!mb-0" }}
+    <div class="flex flex-col gap-y-15 sm:gap-y-20 md:grid md:grid-cols-12 md:items-center">
+      <address class="not-italic md:col-span-7">
         {{ if contact_info:address }}
           <div>{{ contact_info:address | nl2br }}</div>
         {{ /if }}
-        {{ if contact_info:phone }}
-          Telefon
-          <a href="tel:{{ contact_info:phone }}"
-            title="Rufen Sie uns an"
-            class="no-underline hover:underline underline-offset-8 decoration-1">
-            {{ contact_info:phone }}
-          </a><br>
-        {{ /if }}
-        {{ if contact_info:email }}
-          <a href="mailto:{{ contact_info:email }}" 
-            title="E-Mail schreiben"
-            class="no-underline hover:underline underline-offset-8 decoration-1">
-            {{ contact_info:email }}
-          </a>
-        {{ /if }}
+          T <a href="tel:{{ contact_info:phone }}" title="Rufen Sie uns an" class="no-underline hover:underline underline-offset-4 decoration-1">{{ contact_info:phone }}</a>,
+          <a href="mailto:{{ contact_info:email }}" title="E-Mail schreiben" class="no-underline hover:underline underline-offset-4 decoration-1">{{ contact_info:email }}</a>
       </address>
-      <div class="sm:col-span-6 md:col-span-5 lg:col-span-4 flex gap-y-25 flex-col sm:flex-row sm:justify-between sm:items-center">
-        <a href="/" title="Startseite {{ config:app:name }}">
-          {{ partial:icons/logo class="w-160 md:w-195 xl:w-[240px] h-auto" theme="white" }}
-        </a>
-        {{ partial:components/socials }}
+
+      {{ if downloads }}
+        <div class="md:col-span-3 flex flex-col gap-y-3">
+          {{ downloads:files }}
+            <a href="{{ url }}" title="{{ title }}" class="block no-underline hover:underline underline-offset-4 decoration-1">
+              {{ title }}
+            </a>
+          {{ /downloads:files }}
+        </div> 
+      {{ /if}}
+
+      <div class="md:col-span-2 flex lg:justify-end">
+        <nav>
+          <ul class="flex items-center gap-x-15 md:gap-x-20 lg:gap-x-25">
+            {{ if contact_info:google_maps_url }}
+              <li>
+                <a href="{{ contact_info:google_maps_url }}" title="Standort auf Google Maps anzeigen" target="_blank" class="group">
+                  {{ partial:icons/marker class="block w-30 lg:w-40 h-auto group-hover:text-silver transition-colors" }}
+                </a>
+              </li>
+            {{ /if }}
+            {{ if social_media_accounts:publish && social_media_accounts:instagram }}
+              <li>
+                <a href="{{ social_media_accounts:instagram }}" title="Besuchen Sie unser Instagram Profil" target="_blank" class="group">
+                  {{ partial:icons/instagram class="block w-35 lg:w-45 h-auto group-hover:text-silver transition-colors" }}
+                </a>
+              </li>
+            {{ /if }}
+          </ul>
+        </nav>
       </div>
     </div>
-  {{ /partial:layout/inner }} #}}
+  {{ /partial:layout/inner }}
 </footer>

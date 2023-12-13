@@ -15,17 +15,24 @@
 }
 
 .fancybox__toolbar .f-button[data-fancybox-close] {
-  @apply !bg-transparent
+  @apply !bg-transparent !bg-no-repeat bg-center bg-lightbox-close bg-[length:30px_30px] lg:bg-[length:50px_50px] w-30 lg:w-50 h-30 lg:h-50 top-15 right-15 lg:top-30 lg:right-30;
+}
+
+.fancybox__nav {
+  @apply !rounded-none;
 }
 
 .fancybox__nav .f-button {
+  @apply !bg-transparent !bg-no-repeat bg-center bg-[length:20px_40px] lg:bg-[length:29px_58px] w-20 h-40 lg:w-29 lg:h-58 !rounded-none;
   z-index: 99998;
 }
 
 .fancybox__nav .f-button.is-next {
+  @apply bg-lightbox-next right-15 lg:!right-30
 }
 
 .fancybox__nav .f-button.is-prev {
+  @apply bg-lightbox-prev left-15 lg:!left-30
 }
 
 .fancybox__caption {

@@ -12,8 +12,8 @@ fields:
           instructions: null
           icon: null
           sets:
-            neues_set:
-              display: 'Neues Set'
+            image:
+              display: Bild
               instructions: null
               icon: null
               fields:

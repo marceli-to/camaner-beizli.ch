@@ -1,0 +1,17 @@
+title: Downloads
+data:
+  files:
+    -
+      id: lq3u2x4u
+      file:
+        - downloads/231210_cama_webseite_35_desktop_rz_mit-text.pdf
+      type: file
+      enabled: true
+      title: Öffnungszeiten
+    -
+      id: lq3u488e
+      title: 'Essen & Trinken'
+      file:
+        - downloads/231210_cama_webseite_35_desktop_rz_mit-text.pdf
+      type: file
+      enabled: true

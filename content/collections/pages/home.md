@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702471253
+updated_at: 1702481918
 page_elements:
   -
     id: lq3la5yk
@@ -20,39 +20,39 @@ page_elements:
     id: lq3l349b
     images:
       -
-        id: lq3mjafl
+        id: lq3vhs57
         image: camaner-beizli-tal-01.jpg
-        type: neues_set
+        type: image
         enabled: true
       -
-        id: lq3l4513
+        id: lq3vhwmu
         image: camaner-beizli-tal-02.jpg
-        type: neues_set
+        type: image
         enabled: true
       -
-        id: lq3l4a5b
+        id: lq3vhzz8
         image: camaner-beizli-tal-03.jpg
-        type: neues_set
+        type: image
         enabled: true
       -
-        id: lq3l4d0m
+        id: lq3vi7u8
         image: camaner-beizli-tal-04.jpg
-        type: neues_set
+        type: image
         enabled: true
       -
-        id: lq3l4g7g
+        id: lq3vibiw
         image: camaner-beizli-tal-05.jpg
-        type: neues_set
+        type: image
         enabled: true
       -
-        id: lq3l4jbx
+        id: lq3viexy
         image: camaner-beizli-tal-06.jpg
-        type: neues_set
+        type: image
         enabled: true
       -
-        id: lq3l4m25
+        id: lq3vii3i
         image: camaner-beizli-tal-07.jpg
-        type: neues_set
+        type: image
         enabled: true
     type: gallery
     enabled: true
@@ -292,6 +292,41 @@ page_elements:
         type: lead
         enabled: true
       -
+        id: lq3vffni
+        images:
+          -
+            id: lq3vitjb
+            image: camaner-beizli-haus-01.jpg
+            type: image
+            enabled: true
+          -
+            id: lq3viwdp
+            image: camaner-beizli-haus-02.jpg
+            type: image
+            enabled: true
+          -
+            id: lq3vizul
+            image: camaner-beizli-haus-03.jpg
+            type: image
+            enabled: true
+          -
+            id: lq3vj2m5
+            image: camaner-beizli-haus-04.jpg
+            type: image
+            enabled: true
+          -
+            id: lq3vj5fl
+            image: camaner-beizli-haus-05.jpg
+            type: image
+            enabled: true
+          -
+            id: lq3vjpa6
+            image: camaner-beizli-haus-06.jpg
+            type: image
+            enabled: true
+        type: gallery
+        enabled: true
+      -
         id: lq3qkikc
         text_left:
           -
@@ -432,7 +467,18 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Die gut ausgebaute Strasse über Camanaboden ist ganzjährig befahrbar. Die zweite Zufahrt ab der Postautohaltestelle «Safien, Abzweigung Camana» wird im Winter auch als Schlittelweg genutzt und ist zeitweise für den Autoverkehr gesperrt. Karte'
+                text: 'Die gut ausgebaute Strasse über Camanaboden ist ganzjährig befahrbar. Die zweite Zufahrt ab der Postautohaltestelle «Safien, Abzweigung Camana» wird im Winter auch als Schlittelweg genutzt und ist zeitweise für den Autoverkehr gesperrt. '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://maps.app.goo.gl/aJhigLp4jBUM2MsJA'
+                      rel: null
+                      target: _blank
+                      title: 'Auf Google Maps anzeigen'
+                text: Karte
           -
             type: heading
             attrs:

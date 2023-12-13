@@ -139,6 +139,13 @@ fields:
                     replicator_preview: true
                     hide_display: false
                     width: 50
+            gallery:
+              display: Bildergalerie
+              instructions: null
+              icon: media-image-picture-gallery
+              fields:
+                -
+                  import: gallery
       type: replicator
       display: Element
       icon: replicator

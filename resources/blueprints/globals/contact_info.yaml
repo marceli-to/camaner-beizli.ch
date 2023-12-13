@@ -3,15 +3,14 @@ tabs:
     display: Main
     sections:
       -
-        display: 'Contact info'
-        instructions: 'Global address data used in the footer and the contact page'
+        display: Kontaktinformationen
         fields:
           -
             handle: address
             field:
               antlers: false
               type: textarea
-              display: Address
+              display: Adresse
               icon: textarea
               listable: hidden
               instructions_position: above
@@ -24,7 +23,7 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: Phone
+              display: Telefon
               icon: text
               listable: hidden
               instructions_position: above
@@ -37,7 +36,20 @@ tabs:
               input_type: text
               antlers: false
               type: text
-              display: Email
+              display: E-Mail
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: google_maps_url
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Google Maps URL'
               icon: text
               listable: hidden
               instructions_position: above
