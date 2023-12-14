@@ -136,7 +136,6 @@ page_elements:
     type: article
     enabled: true
     anchor: camaner-beizli
-    has_bird: false
   -
     id: lq3qgpvn
     element:
@@ -279,7 +278,6 @@ page_elements:
     type: article
     enabled: true
     anchor: das-beizli-durchs-jahr
-    has_bird: true
   -
     id: lq3qjvek
     element:
@@ -502,6 +500,5 @@ page_elements:
     type: article
     enabled: true
     anchor: kontakt-und-anreise
-    has_bird: false
 page_theme: winter
 ---
