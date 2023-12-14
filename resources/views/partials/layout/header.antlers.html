@@ -1,5 +1,7 @@
 <header class="pt-20 relative z-20">
-  {{ partial:layout/inner class="flex justify-center" }}
+    {{ partial:layout/inner class="flex justify-center" }}
+    {{ partial:partials/components/dot class="left-[5%] top-[5%]" image="dot-1" }}
+    {{ partial:partials/components/dot class="left-[24%] top-[45%] w-60 md:w-80 lg:w-110" image="dot-3" }}
     <div class="flex flex-col">
       {{ partial:partials/components/birds/bird-1 class="w-140 xs:w-160 sm:w-180 lg:w-[260px] lg:h-auto block relative left-45 xs:left-50 sm:left-52 lg:left-75" }}
       <a href="" class="w-160 xs:w-180 sm:w-200 lg:w-[285px] h-auto block">
@@ -15,4 +17,5 @@
     </a>
   {{ /partial:layout/inner}}
 </header>
+{{ partial:partials/components/dot class="right-[10%] lg:right-[10%] top-[25%] lg:top-[40%] w-50 md:w-70 lg:w-100" image="dot-2" }}
 {{ partial:menu/overlay/wrapper }}
