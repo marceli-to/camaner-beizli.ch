@@ -33,3 +33,19 @@ article a {
 /* article.has-bird {
   @apply bg-bird bg-[length:100px_auto] lg:bg-[length:200px_auto] bg-no-repeat bg-[center_right_-50px] lg:bg-[center_right_-100px];
 } */
+
+article.privacy p {
+  @apply mb-20 md:mb-25 lg:mb-35
+}
+
+article.privacy ul {
+  @apply mb-20 md:mb-25 lg:mb-35
+}
+
+article.privacy ul li {
+  @apply list-disc list-inside
+}
+
+article.privacy ul li p {
+  @apply inline
+}

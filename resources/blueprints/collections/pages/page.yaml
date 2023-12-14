@@ -54,6 +54,13 @@ tabs:
                       fields:
                         -
                           import: article
+                    text:
+                      display: Text
+                      instructions: null
+                      icon: text-formatting-initial-letter
+                      fields:
+                        -
+                          import: editor
               type: replicator
               display: Inhalte
               icon: replicator

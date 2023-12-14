@@ -14,3 +14,13 @@
   {{ /partial:layout/inner }}
 {{ /if }}
 
+{{ if type == 'text' }}
+  {{ partial:layout/inner }}
+  <article class="privacy">
+    {{ content }}
+      {{ text }}
+    {{ /content }}
+  </article>
+  {{ /partial:layout/inner }}
+{{ /if }}
+
