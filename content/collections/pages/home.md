@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702483688
+updated_at: 1702648279
 page_elements:
   -
     id: lq3la5yk
@@ -20,13 +20,13 @@ page_elements:
     id: lq3l349b
     images:
       -
-        id: lq3vhs57
-        image: camaner-beizli-tal-01.jpg
+        id: lq3vhwmu
+        image: camaner-beizli-tal-02.jpg
         type: image
         enabled: true
       -
-        id: lq3vhwmu
-        image: camaner-beizli-tal-02.jpg
+        id: lq3vhs57
+        image: camaner-beizli-tal-01.jpg
         type: image
         enabled: true
       -

@@ -4,7 +4,7 @@ blueprint: page
 title: Datenschutz
 page_theme: winter
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702558983
+updated_at: 1702648412
 page_elements:
   -
     id: lq57iubv
@@ -64,7 +64,7 @@ page_elements:
         content:
           -
             type: text
-            text: 'Die meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.'
+            text: 'Die meisten der von uns verwendeten Cookies sind so genannte «Session-Cookies». Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.'
       -
         type: paragraph
         attrs:
@@ -173,7 +173,21 @@ page_elements:
         content:
           -
             type: text
-            text: 'Diese Daten sowie alle Daten dieser Website werden bei unserem Hosting-Provider Hostpoint AG, Rapperswil, Schweiz gespeichert, deren Datenschutzerklärung Sie hier finden.'
+            text: 'Diese Daten sowie alle Daten dieser Website werden bei unserem Hosting-Provider Hostpoint AG, Rapperswil, Schweiz gespeichert, deren Datenschutzerklärung Sie '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.hostpoint.ch/hostpoint/kontakt-agb.html#datenschutz'
+                  rel: null
+                  target: _blank
+                  title: 'Datenschutzerklärung Hostpoint'
+            text: hier
+          -
+            type: text
+            text: ' finden.'
       -
         type: heading
         attrs:
@@ -189,7 +203,21 @@ page_elements:
         content:
           -
             type: text
-            text: 'Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden oder eine E-Mail an mail@camaner-beizli.ch senden.'
+            text: 'Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden oder eine E-Mail an '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:mail@camaner-beizli.ch'
+                  rel: null
+                  target: null
+                  title: 'E-Mail Camaner Beizli'
+            text: mail@camaner-beizli.ch
+          -
+            type: text
+            text: ' senden.'
       -
         type: paragraph
         attrs:
