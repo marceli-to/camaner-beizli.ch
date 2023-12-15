@@ -34,6 +34,7 @@ export default {
 
       fontSize: {
         'tiny': '0.875rem',  // 14px
+        'xxxs': '0.9375rem', // 15px
         'xxs': '1rem',       // 16px
         'xs': '1.125rem',    // 18px
         'sm': '1.25rem',     // 20px
