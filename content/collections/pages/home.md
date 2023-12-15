@@ -87,12 +87,12 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Das Camaner Beizli befindet sich unterhalb ausgedehnter Alpweiden in Camana auf 1805 m ü. M., im höchstgelegenen, ganzjährig bewohnten Haus der ganzen Surselva.'
+                text: 'Das Camaner Beizli befindet sich unterhalb ausgedehnter Alpweiden in Camana auf 1805 m ü. M., im höchstgelegenen, ganzjährig bewohnten Haus der ganzen Surselva.'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Die gemütliche Gaststube mit Specksteinofen bietet Platz für gut 20 Gäste. Von der sonnigen Aussenterrasse gegenüber dem Bruschghorn, schweift der Blick nach Süden in den Talabschluss und bis hinauf zum Tällihorn.'
+                text: 'Die gemütliche Gaststube mit Specksteinofen bietet Platz für gut 20 Gäste. Von der sonnigen Aussenterrasse gegenüber dem Bruschghorn, schweift der Blick nach Süden in den Talabschluss und bis hinauf zum Tällihorn.'
         text_right:
           -
             type: heading
@@ -109,7 +109,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Für einen einfachen Zmittag, zu Kaffee und Kuchen, zum Zvieri oder gegen den Durst: aufgetischt werden frisch zubereitete Suppen, Siedwürste, Käse und Trockenfleisch aus Safier Produktion, hausgemachte Kuchen und weitere Leckereien sowie – je nach Jahreszeit – verschiedene warme und kalte Getränke. Angebot'
+                text: 'Für einen einfachen Zmittag, zu Kaffee und Kuchen, zum Zvieri oder gegen den Durst: aufgetischt werden frisch zubereitete Suppen, Siedwürste, Käse und Trockenfleisch aus Safier Produktion, hausgemachte Kuchen und weitere Leckereien sowie – je nach Jahreszeit – verschiedene warme und kalte Getränke. Angebot'
           -
             type: heading
             attrs:
@@ -435,7 +435,7 @@ page_elements:
             content:
               -
                 type: text
-                text: "Das Safiental wird mit dem Postauto ganzjährig bedient. Von der Haltestelle «Safien, Abzweigung Camana» an der Talstrasse dauert's zu Fuss bis zum Beizli gut 20 Minuten. Karte"
+                text: "Das Safiental wird mit dem Postauto ganzjährig bedient. Von der Haltestelle «Safien, Abzweigung Camana» an der Talstrasse dauert's zu Fuss bis zum Beizli gut 20 Minuten. Karte"
           -
             type: heading
             attrs:
@@ -451,7 +451,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Die Wanderwege von Thalkirch nach Safien Platz und zur Camaner Alp führen am Beizli vorbei. In unmittelbarer Nähe befinden sich der Camaner Schlittelweg, der Schneeschuhtrail auf die Camaner Alp und das Skitourengebiet Camaner Grat. Karte'
+                text: 'Die Wanderwege von Thalkirch nach Safien Platz und zur Camaner Alp führen am Beizli vorbei. In unmittelbarer Nähe befinden sich der Camaner Schlittelweg, der Schneeschuhtrail auf die Camaner Alp und das Skitourengebiet Camaner Grat. Karte'
           -
             type: heading
             attrs:
@@ -467,7 +467,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Die gut ausgebaute Strasse über Camanaboden ist ganzjährig befahrbar. Die zweite Zufahrt ab der Postautohaltestelle «Safien, Abzweigung Camana» wird im Winter auch als Schlittelweg genutzt und ist zeitweise für den Autoverkehr gesperrt. '
+                text: 'Die gut ausgebaute Strasse über Camanaboden ist ganzjährig befahrbar. Die zweite Zufahrt ab der Postautohaltestelle «Safien, Abzweigung Camana» wird im Winter auch als Schlittelweg genutzt und ist zeitweise für den Autoverkehr gesperrt. '
               -
                 type: text
                 marks:
@@ -486,7 +486,7 @@ page_elements:
             content:
               -
                 type: text
-                text: Parkplätze
+                text: Parkplätze
           -
             type: paragraph
             attrs:
@@ -494,7 +494,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Wenige Parkplätze befinden sich in Ober Camana auf dem Platz unterhalb des Beizlis.'
+                text: 'Wenige Parkplätze befinden sich in Ober Camana auf dem Platz unterhalb des Beizlis.'
         type: text
         enabled: true
     type: article
