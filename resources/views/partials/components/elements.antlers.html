@@ -4,7 +4,7 @@
 
 {{ if type == 'gallery' }}
   {{ partial:layout/inner }}
-    {{ partial:components/media/gallery class="px-15 lg:px-35 xl:px-0" }}
+    {{ partial:components/media/gallery class="px-10 xs:px-15 lg:px-35 xl:px-0" }}
   {{ /partial:layout/inner }}
 {{ /if }}
 
@@ -16,7 +16,7 @@
 
 {{ if type == 'text' }}
   {{ partial:layout/inner }}
-  <article class="privacy px-15 lg:px-35 xl:px-0">
+  <article class="privacy px-10 xs:px-15 lg:px-35 xl:px-0">
     {{ content }}
       {{ text }}
     {{ /content }}
