@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702648279
+updated_at: 1702833800
 page_elements:
   -
     id: lq3la5yk
@@ -40,8 +40,8 @@ page_elements:
         type: image
         enabled: true
       -
-        id: lq3vibiw
-        image: camaner-beizli-tal-05.jpg
+        id: lq3vii3i
+        image: camaner-beizli-tal-07.jpg
         type: image
         enabled: true
       -
@@ -50,8 +50,8 @@ page_elements:
         type: image
         enabled: true
       -
-        id: lq3vii3i
-        image: camaner-beizli-tal-07.jpg
+        id: lq3vibiw
+        image: camaner-beizli-tal-05.jpg
         type: image
         enabled: true
     type: gallery
@@ -167,7 +167,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Di 26. Dez. 23 bis Mo 1. Januar 24'
+                text: "Di 26. Dezember –\_Mo 1. Januar"
           -
             type: heading
             attrs:
@@ -183,37 +183,37 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Sa 8.und So 9.Juni'
+                text: 'Sa 8. / So 9.Juni'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 22. und So 23. Juni'
+                text: 'Sa 22. / So 23. Juni'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 13. und So 14. Juli'
+                text: 'Sa 13. / So 14. Juli'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 27. und So 28. Juli'
+                text: 'Sa 27. / So 28. Juli'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Mi 31. Juli und Do 1. August'
+                text: 'Mi 31. Juli / Do 1. August'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 10. und So 11. August'
+                text: 'Sa 10. / So 11. August'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 24. und So 25. August'
+                text: 'Sa 24. / So 25. August'
         text_right:
           -
             type: heading
@@ -230,17 +230,17 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Sa 7. und So 8. September'
+                text: 'Sa 7. / So 8. September'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 21. und So 22. September'
+                text: 'Sa 21. / So 22. September'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 12. und So 13. September'
+                text: 'Sa 12. / So 13. September'
           -
             type: heading
             attrs:
@@ -256,7 +256,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Do 26. Dez. 24 bis Mi 1. Januar 25'
+                text: 'Do 26. Dezember – Mi 1. Januar'
           -
             type: heading
             attrs:
@@ -317,6 +317,11 @@ page_elements:
           -
             id: lq3vj5fl
             image: camaner-beizli-haus-05.jpg
+            type: image
+            enabled: true
+          -
+            id: lq9qvtbt
+            image: camaner-beizli-haus-07.jpg
             type: image
             enabled: true
           -
@@ -451,7 +456,18 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Die Wanderwege von Thalkirch nach Safien Platz und zur Camaner Alp führen am Beizli vorbei. In unmittelbarer Nähe befinden sich der Camaner Schlittelweg, der Schneeschuhtrail auf die Camaner Alp und das Skitourengebiet Camaner Grat. Karte'
+                text: 'Die Wanderwege von Thalkirch nach Safien Platz und zur Camaner Alp führen am Beizli vorbei. In unmittelbarer Nähe befinden sich der Camaner Schlittelweg, der Schneeschuhtrail auf die Camaner Alp und das Skitourengebiet Camaner Grat. '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://map.schweizmobil.ch/?lang=de&photos=yes&logo=yes&detours=yes&season=summer&bgLayer=pk&resolution=1&E=2741030&N=1169430'
+                      rel: null
+                      target: _blank
+                      title: 'Karte SchweizMobil'
+                text: Karte
           -
             type: heading
             attrs:

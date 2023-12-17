@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Bild mit Bildlegende'
 size: 1331009
 last_modified: 1702460194
 width: 2000

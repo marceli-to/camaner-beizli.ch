@@ -4,7 +4,7 @@
     <a
       href="javascript:;" 
       data-src="{{ glide:image preset='3xl' }}" 
-      data-fancybox="gallery"
+      data-fancybox="gallery_{{anchor}}"
       data-caption="{{ image:alt }}">
       {{ partial:partials/components/media/image count="{{ images | count }}" }}
     </a>
@@ -12,7 +12,7 @@
     <a 
       href="javascript:;"
       data-src="{{ glide:image preset='3xl' }}" 
-      data-fancybox="gallery"
+      data-fancybox="gallery_{{ anchor}}"
       data-caption="{{ image:alt }}">
     </a>
   {{ /if}}

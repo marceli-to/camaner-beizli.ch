@@ -20,12 +20,12 @@
       </div>
       
       <div class="md:col-span-3 flex flex-col gap-y-3">
-        <a href="#das-beizli-durchs-jahr" title="Öffnungszeiten" class="block no-underline hover:underline underline-offset-4 decoration-1">
+        <a href="#das-beizli-durchs-jahr" title="Öffnungszeiten" class="block underline hover:no-underline underline-offset-4 decoration-1">
           Öffnungszeiten
         </a>
         {{ if downloads }}
           {{ downloads:files }}
-            <a href="{{ url }}" title="{{ title }}" class="block no-underline hover:underline underline-offset-4 decoration-1">
+            <a href="{{ url }}" title="{{ title }}" class="block underline hover:no-underline underline-offset-4 decoration-1">
               {{ title }}
             </a>
           {{ /downloads:files }}
