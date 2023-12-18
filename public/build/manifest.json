@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-c059a56b.css",
+    "file": "assets/app-e6444dc2.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -17,15 +17,15 @@
     "src": "resources/img/bird-2.png"
   },
   "resources/img/chevron-left.svg": {
-    "file": "assets/chevron-left-07623bda.svg",
+    "file": "assets/chevron-left-d7c83d1e.svg",
     "src": "resources/img/chevron-left.svg"
   },
   "resources/img/chevron-right.svg": {
-    "file": "assets/chevron-right-46fe809e.svg",
+    "file": "assets/chevron-right-3316b63f.svg",
     "src": "resources/img/chevron-right.svg"
   },
   "resources/img/cross.svg": {
-    "file": "assets/cross-b20e9299.svg",
+    "file": "assets/cross-f7618992.svg",
     "src": "resources/img/cross.svg"
   },
   "resources/js/app.css": {
@@ -36,7 +36,7 @@
     "css": [
       "assets/app-bf74afcd.css"
     ],
-    "file": "assets/app-8dd97ee2.js",
+    "file": "assets/app-6d7b5eec.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

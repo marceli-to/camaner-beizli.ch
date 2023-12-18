@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702833800
+updated_at: 1702931759
 page_elements:
   -
     id: lq3la5yk
@@ -13,7 +13,7 @@ page_elements:
     opening_hours: |-
       26. Dezember 2023 – 1. Januar 2024
       täglich 12 –17 Uhr
-    text: 'Wir freuen uns auf Ihren Besuch'
+    text: 'Wir freuen uns auf Besuch'
     type: intro_opening
     enabled: true
   -
@@ -146,7 +146,7 @@ page_elements:
         enabled: true
       -
         id: lq3qh42e
-        lead: 'Das Camaner Beizli ist vom 26. Dezember bis 1. Januar zwischen 12 und 17 Uhr offen. Ab Juni bis Mitte Oktober hat es jeweils am 2. und 4. Wochenende des Monats, sowie am 31. Juli und 1. August geöffnet.'
+        lead: 'Das Camaner Beizli ist vom 26. Dezember bis 1. Januar, ab Juni bis Oktober jeweils am 2. und 4. Wochenende des Monats, sowie am 31. Juli und 1. August geöffnet.'
         type: lead
         enabled: true
       -
@@ -183,7 +183,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Sa 8. / So 9.Juni'
+                text: 'Sa 8. / So 9. Juni'
               -
                 type: hardBreak
               -
@@ -240,7 +240,7 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Sa 12. / So 13. September'
+                text: 'Sa 12. / So 13. Oktober'
           -
             type: heading
             attrs:
@@ -272,7 +272,7 @@ page_elements:
             content:
               -
                 type: text
-                text: '12 bis 17 Uhr'
+                text: '12 – 17 Uhr'
         type: text
         enabled: true
     type: article

@@ -23,7 +23,7 @@
 }
 
 .fancybox__nav .f-button {
-  @apply !bg-transparent !bg-no-repeat bg-center bg-[length:20px_40px] lg:bg-[length:29px_58px] w-20 h-40 lg:w-29 lg:h-58 !rounded-none;
+  @apply !bg-transparent !bg-no-repeat bg-center bg-[length:20px_40px] lg:bg-[length:31px_58px] w-20 h-40 lg:w-31 lg:h-58 !rounded-none;
   z-index: 99998;
 }
 
