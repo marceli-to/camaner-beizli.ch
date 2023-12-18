@@ -6,7 +6,7 @@
 }
 
 .fancybox__content {
-  @apply !pt-30 !pb-10
+  @apply !pt-30 !pb-0 2xl:!pt-40 2xl:!pb-0;
 }
 
 .fancybox__nav .f-button svg,

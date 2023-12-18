@@ -32,13 +32,13 @@
     {{ /if }}
     {{ if type == 'text' }}
       <div class="md:grid md:grid-cols-12 md:gap-x-20 lg:gap-x-30 leading-[1.25]">
-        <div class="md:col-span-6 mb-20 md:mb-0 [&>p]:lg:mb-20">
+        <div class="md:col-span-6 mb-20 md:mb-0 [&>p]:mb-20">
           {{ text_left }}
           {{ if anchor == 'kontakt-und-anreise' }}
             {{ partial:partials/components/birds/bird-3 }}
           {{ /if }}
         </div>
-        <div class="md:col-span-6 [&>p]:lg:mb-20">
+        <div class="md:col-span-6 [&>p]:mb-20">
           {{ text_right }}
         </div>
       </div>
