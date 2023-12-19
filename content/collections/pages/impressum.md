@@ -4,7 +4,7 @@ blueprint: page
 title: Impressum
 page_theme: winter
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702834067
+updated_at: 1702980065
 page_elements:
   -
     id: lq9rcv8l
@@ -41,7 +41,7 @@ page_elements:
                 attrs:
                   href: 'https://bivgrafik.ch/'
                   rel: null
-                  target: null
+                  target: _blank
                   title: null
             text: Bivgrafik
           -
@@ -73,9 +73,9 @@ page_elements:
               -
                 type: link
                 attrs:
-                  href: 'https://marceli.to/'
+                  href: 'https://marceli.to'
                   rel: null
-                  target: null
+                  target: _blank
                   title: null
             text: 'Marcel Stadelmann'
           -
