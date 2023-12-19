@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702980012
+updated_at: 1702983370
 page_elements:
   -
     id: lq3la5yk
@@ -13,7 +13,7 @@ page_elements:
     opening_hours: |-
       26. Dezember 2023 – 1. Januar 2024
       täglich 12 –17 Uhr
-    text: 'Wir freuen uns auf Besuch'
+    text: 'Wir freuen uns auf Besuch!'
     type: intro_opening
     enabled: true
   -
@@ -66,7 +66,7 @@ page_elements:
         enabled: true
       -
         id: lq3q8xuy
-        lead: 'Im Bündner Safiental lädt das Camaner Beizli übers Jahr an ausgewählten Tagen zur Einkehr. Ob in der Gaststube oder im Garten vor dem Walserhaus – wer auch immer vorbeischaut, ist herzlich willkommen.'
+        lead: 'Im Bündner Safiental lädt das Camaner Beizli übers Jahr an ausgewählten Tagen zur Einkehr. Ob in der Gaststube oder auf der Sonnenterrasse vor dem Walserhaus – wer auch immer vorbeischaut, ist herzlich willkommen.'
         type: lead
         enabled: true
       -
@@ -109,7 +109,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Für einen einfachen Zmittag, zu Kaffee und Kuchen, zum Zvieri oder gegen den Durst: aufgetischt werden frisch zubereitete Suppen, Siedwürste, Käse und Trockenfleisch aus Safier Produktion, hausgemachte Kuchen und weitere Leckereien sowie – je nach Jahreszeit – verschiedene warme und kalte Getränke. Angebot'
+                text: 'Für einen einfachen Zmittag, zu Kaffee und Kuchen, zum Zvieri oder gegen den Durst: aufgetischt werden frisch zubereitete Suppen, Siedwürste, Käse und Trockenfleisch aus Safier Produktion, hausgemachte Kuchen und weitere Leckereien sowie – je nach Jahreszeit – verschiedene warme und kalte Getränke.'
           -
             type: heading
             attrs:
@@ -407,7 +407,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Für grössere Gruppen (ab X Personen) empfiehlt sich eine Anmeldung.'
+                text: 'Für grössere Gruppen (ab 10 Personen) empfiehlt sich eine Anmeldung.'
           -
             type: heading
             attrs:
@@ -440,7 +440,7 @@ page_elements:
             content:
               -
                 type: text
-                text: "Das Safiental wird mit dem Postauto ganzjährig bedient. Von der Haltestelle «Safien, Abzweigung Camana» an der Talstrasse dauert's zu Fuss bis zum Beizli gut 20 Minuten. Karte"
+                text: "Das Safiental wird mit dem Postauto ganzjährig bedient. Von der Haltestelle «Safien, Abzweigung Camana» an der Talstrasse dauert's zu Fuss bis zum Beizli gut 20 Minuten."
           -
             type: heading
             attrs:
