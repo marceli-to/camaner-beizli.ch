@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702984228
+updated_at: 1702999742
 page_elements:
   -
     id: lq3la5yk
@@ -13,7 +13,7 @@ page_elements:
     opening_hours: |-
       26. Dezember 2023 – 1. Januar 2024
       täglich 12 –17 Uhr
-    text: 'Wir freuen uns auf Besuch!'
+    text: 'Wir freuen uns auf Euren Besuch!'
     type: intro_opening
     enabled: true
   -
@@ -125,7 +125,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Es freuen sich auf Besuch:'
+                text: 'Es freuen sich auf Euren Besuch:'
               -
                 type: hardBreak
               -
@@ -402,7 +402,7 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Für grössere Gruppen (ab 10 Personen) empfiehlt sich eine Anmeldung.'
+                text: 'Für grössere Gruppen (ab 10 Personen) empfiehlt sich eine telefonische Anmeldung.'
           -
             type: heading
             attrs:

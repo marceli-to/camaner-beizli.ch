@@ -7,4 +7,4 @@ data:
       file:
         - downloads/231210_cama_webseite_35_desktop_rz_mit-text.pdf
       type: file
-      enabled: true
+      enabled: false
