@@ -38,7 +38,15 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
+        //'getting_started',
+        [ 
+          'type' => 'collection',
+          'collection' => 'pages',
+          'limit' => 10,
+          'title' => 'Inhalte',
+          'width' => 50,
+          'sort' => 'order',
+        ], 
     ],
 
     /*
