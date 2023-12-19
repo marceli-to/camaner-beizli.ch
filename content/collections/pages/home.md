@@ -5,7 +5,7 @@ title: Home
 template: templates/content/default
 author: 3f4934a7-72ef-446c-bf12-5336d13e6898
 updated_by: 3f4934a7-72ef-446c-bf12-5336d13e6898
-updated_at: 1702984076
+updated_at: 1702984228
 page_elements:
   -
     id: lq3la5yk
@@ -514,5 +514,4 @@ page_elements:
 page_theme: winter
 open_graph_title: 'Camaner Beizli, Safiental'
 open_graph_description: 'Im Bündner Safiental lädt das Camaner Beizli übers Jahr an ausgewählten Tagen zur Einkehr. Ob in der Gaststube oder auf der Sonnenterrasse vor dem Walserhaus – wer auch immer vorbeischaut, ist herzlich willkommen.'
-open_graph_image: camaner-beizli-tal-01.jpg
 ---
