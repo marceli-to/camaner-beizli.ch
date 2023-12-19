@@ -6,7 +6,8 @@
       data-src="{{ glide:image preset='3xl' }}" 
       data-fancybox="gallery_{{anchor}}"
       data-caption="{{ image:alt }}"
-      class="!no-underline">
+      class="!no-underline"
+      title="{{ image:alt }}">
       {{ partial:partials/components/media/image count="{{ images | count }}" }}
     </a>
   {{ else }}
