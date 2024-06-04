@@ -55,6 +55,7 @@ export default {
         'jade': '#74c49d',
         'silver': '#e5e5e7',
         'emerald': '#33af7a',
+        'creamy-lime': '#e6e89a',
       },
 
       backgroundImage: {

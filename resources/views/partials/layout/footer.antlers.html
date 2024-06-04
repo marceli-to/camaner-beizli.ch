@@ -1,4 +1,4 @@
-<footer class="bg-emerald w-full px-15 lg:px-35 xl:px-0 py-20 lg:py-35">
+<footer class="bg-creamy-lime w-full px-15 lg:px-35 xl:px-0 py-20 lg:py-35">
   {{ partial:layout/inner class="!mb-0" }}
     <div class="flex flex-col gap-y-20 sm:gap-y-20 md:grid md:grid-cols-12 md:items-start">
       <div class="md:col-span-7">
@@ -15,13 +15,16 @@
         <a href="#das-beizli-durchs-jahr" title="Öffnungszeiten" class="block underline hover:no-underline underline-offset-4 decoration-1">
           Öffnungszeiten
         </a>
-        {{ if downloads }}
+        <a href="#camaner-beizli" title="Essen & Trinken" class="block underline hover:no-underline underline-offset-4 decoration-1">
+          Essen & Trinken
+        </a>
+        {{# {{ if downloads }}
           {{ downloads:files }}
             <a href="{{ file }}" title="{{ title }}" target="_blank" class="block underline hover:no-underline underline-offset-4 decoration-1">
               {{ title }}
             </a>
           {{ /downloads:files }}
-        {{ /if }}
+        {{ /if }} #}}
       </div> 
       
       <div class="md:col-span-2 flex lg:justify-end">
