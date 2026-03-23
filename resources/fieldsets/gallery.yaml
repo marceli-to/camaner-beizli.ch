@@ -3,7 +3,7 @@ fields:
   -
     handle: images
     field:
-      collapse: false
+      collapse: true
       previews: true
       fullscreen: true
       sets:
@@ -29,7 +29,6 @@ fields:
                     show_set_alt: true
                     type: assets
                     display: Bild
-                    icon: assets
                     listable: hidden
                     instructions_position: above
                     visibility: visible
@@ -37,7 +36,6 @@ fields:
                     hide_display: false
       type: replicator
       display: Bilder
-      icon: replicator
       listable: hidden
       instructions_position: above
       visibility: visible

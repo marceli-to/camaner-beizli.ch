@@ -15,7 +15,7 @@ fields:
       smart_typography: false
       save_html: false
       inline: false
-      toolbar_mode: fixed
+      toolbar_mode: floating
       reading_time: false
       word_count: false
       fullscreen: true
@@ -32,7 +32,6 @@ fields:
       previews: true
       type: bard
       display: Content
-      icon: bard
       listable: hidden
       instructions_position: above
       visibility: visible
@@ -50,3 +49,5 @@ fields:
               icon: null
               fields: {  }
       container: assets
+      link_collections:
+        - pages
