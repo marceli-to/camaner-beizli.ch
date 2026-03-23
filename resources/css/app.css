@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  @apply bg-bird bg-no-repeat bg-[center_right_-100px] lg:bg-[center_right_-150px] 2xl:bg-[center_right_-75px] 3xl:bg-[center_right_20px] bg-[length:200px_auto] lg:bg-[length:240px_auto] 2xl:bg-[length:280px_auto] 3xl:bg-[length:320px_auto]
+  @apply md:bg-bird bg-no-repeat bg-[center_right_-100px] lg:bg-[center_right_-150px] 2xl:bg-[center_right_-75px] 3xl:bg-[center_right_20px] bg-[length:200px_auto] lg:bg-[length:240px_auto] 2xl:bg-[length:280px_auto] 3xl:bg-[length:320px_auto]
 }
 
 main p:last-of-type {
